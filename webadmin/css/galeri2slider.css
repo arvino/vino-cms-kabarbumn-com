@@ -1,0 +1,59 @@
+/*
+	jQuery galeri2Slider v2.0 - http://www.ndoherty.biz/galeri2slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+	.panelgaleri2 div.title { margin-bottom: 2px;
+	font-size:2px;
+	color:#FFFFFF;
+	
+	 }
+	 
+
+/* Most common stuff you'll need to change */
+
+	.galeri2slider-wrapper { padding: 2px 0 }
+	 
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.galeri2slider-no-js .galeri2slider { height: 2px; overflow: auto !important; padding-right: 2px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.galeri2slider, .galeri2slider .panelgaleri2 { width: 225px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.galeri2slider-wrapper.arrows .galeri2slider, .galeri2slider-wrapper.arrows .galeri2slider .panelgaleri2 { 
+	width: 225px;
+	padding:2px;
+	 }
+	.galeri2slider-wrapper.arrows .galeri2slider { margin: 0 20px }
+	
+	/* Arrow styling */
+	.galeri2nav-left a, .galeri2nav-right a { background: #000; color: #fff; padding: 2px; width: 20px }
+	
+	/* Tab nav */
+	.galeri2nav ul li a.current { background: #A80000 }
+	
+	/* panelgaleri2 padding */
+	.galeri2slider .panelgaleri2-wrapper { padding: 2px }
+	
+	/* Preloader */
+	.galeri2slider p.loading { padding: 2px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.galeri2nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.galeri2nav ul li { display: inline }
+	.galeri2nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.galeri2slider-wrapper { clear: both; overflow: auto }
+	.galeri2slider { float: left; overflow: hidden; position: relative }
+	.galeri2slider .panelgaleri2 { display: block; float: left }
+	.galeri2slider .panelgaleri2-container { position: relative }
+	.galeri2nav-left, .galeri2nav-right { float: left }
+	.galeri2nav-left a, .galeri2nav-right a { display: block; text-align: center; text-decoration: none }
+	

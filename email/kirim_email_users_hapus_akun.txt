@@ -1,0 +1,45 @@
+{HEADERMAIL}
+
+
+
+EMAIL KONFIRMASI HAPUS ACCOUNT DI  {NAMAPERUSAHAAN}
+-----------------------------------------------------------------
+Dari : {NAMASITUS} ( {LOKASIURL} )
+Tanggal : {TANGGALHARIINI}
+
+
+Kepada Yth,  
+
+{USERSNAMA}
+
+
+Kami mengucapkan banyak permohonan maaf jika dari pihak kami tidak cermat dan lalai dalam melayani anda, kami sangat berharap dapat tetap menjalin hubungan dengan anda , dan kami berjanji akan terus memperbaiki layanan kami.
+
+
+Jika Anda Tetap Ingin Menghapus Account Silahkan klik Link berikut ini Untuk Menghapus Account Anda :
+
+
+	{LINKHAPUSACCOUNT}
+
+
+* Anda harus mengklik link hapus account di atas untuk dapat menghapus akun anda.
+
+
+Atau anda dapat mengunjungi link berikut ini untuk alternatif hapus akun anda :
+
+
+	{LINKALTERNATIFHAPUSACCOUNT}
+
+
+
+
+
+
+
+TERIMA KASIH.
+{NAMAPERUSAHAAN}
+
+
+
+{EMAILFOOTER}
+

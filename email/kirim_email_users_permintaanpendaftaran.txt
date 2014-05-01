@@ -1,0 +1,40 @@
+EMAIL PERMINTAAN REGISTRASI AKUN ADMIN DARI {NAMAPERUSAHAAN}
+-------------------------------------------------
+
+{TANGGALHARIINI} {JAMSAATINI}
+
+
+Kepada Yth, 
+
+{USERSNAMA}
+
+
+Berikut ini info account login dan URL Akses halaman admin {NAMAPERUSAHAAN} :
+
+
+DATA LOGIN
+------------------------------------
+
+Email : {USERSEMAIL}
+PIN : {NIKUSERS}
+Password : {USERSPASSWORD}
+
+------------------------------------
+
+Masukkan URL berikut pada address bar browser anda
+
+URL AKSES :
+
+{LOKASIURL}
+
+
+
+Notes :
+-----------------------
+* Gunakan data login di atas untuk mengakses halaman administrator web site.
+* Harap jangan di reply , Email ini di kirim secara otomatis oleh system.
+
+
+Terima kasih.
+
+{EMAILFOOTER}

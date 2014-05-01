@@ -1,0 +1,28 @@
+{HEADERMAIL}
+
+
+EMAIL PEMBLOKIR AKUN
+------------------------------------
+Dari : {NAMASITUS} ({URLSITUS})
+
+
+
+Tanggal : {TANGGALSAATINI}
+
+
+Kepada Yth, 
+
+{USERSNAMA}
+
+
+Email      : {USERSEMAIL}
+
+
+* Dengan sangat menyesal kami harus memblokir akun anda.
+
+
+
+
+{EMAILFOOTER}
+
+

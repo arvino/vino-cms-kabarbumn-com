@@ -1,0 +1,576 @@
+/* CSS BODY */
+/* Pilihan Warna Stead Fast Marine 
+Hitam Abu - abu : #607475
+Hitam Abu - abu muda : #768E8F
+Abu - abu 1 : #666666
+Kuning : #FEDD59
+
+
+#768E8F
+*/
+
+
+body{
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+/* CSS LINK */
+a {
+	color: #65A5E6;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.wrap_headline_berita{
+	padding: 1px 1px 1px 1px;
+	width: 400px;
+	overflow: hidden;
+
+
+}
+
+.wrap_preview_berita{ 
+	padding-left:2px; 
+	padding-right:2px; 
+	padding-bottom:2px; 
+	padding-top:2px;" 
+	width: 220px;
+	overflow: hidden;
+}
+
+
+.wrap_preview_berita_baris{
+	overflow: visible; 
+	display: block; 
+	padding-left:2px; 
+	padding-right:2px; 
+	padding-bottom:2px; 
+	padding-top:2px;" 
+}
+
+
+.sub_konten_item{ 
+	padding: 1px 1px 1px 1px;
+	width: 200px;
+	overflow: hidden;
+}
+
+
+.listjudulberita{
+
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #005500;
+	text-decoration: none;
+
+
+}
+
+.listjudulberita:hover{
+
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+
+
+}
+
+
+.text_pencarian{
+	 
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+
+}
+
+.judulkategori{
+	text-align:center;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+
+}
+
+.judulberita{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+
+.judulberita:hover{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style:inherit;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.tanggalberita{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999999;
+}
+
+.kutippreview{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.previewberita{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.isiberita{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+
+.linkkategoriindeks{
+	border:0px;
+	text-align:right;
+	padding-right:8px;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.liststyle{
+	margin-left:15px;
+ 	padding-left:1px;
+	list-style:square;
+}
+
+
+/*  CSS BERITA DETAIL   */
+.kontendetail_wrapper{
+	padding-left:15px; 
+	padding-right:1px; 
+	padding-bottom:5px; 
+	padding-top:5px;
+	overflow: hidden;
+}
+
+.kontendetail_kategori{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+
+}
+.kontendetail_judul{
+
+	padding-bottom:5px; 
+	padding-top:5px;
+	
+
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+
+}
+
+.kontendetail_subjudul{
+
+	padding-bottom:5px; 
+	padding-top:5px;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #005500;
+	text-decoration: none;
+
+}
+
+.kontendetail_tanggal{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #005500;
+}
+
+
+
+.kontendetail_gambar{
+	
+}
+/*  END   */
+
+
+
+/*  CSS BERITA DETAIL  ITEM TERKAIT */
+.itemdetailbaris_wrapper{
+	padding-left:15px; 
+	padding-right:1px; 
+	padding-bottom:5px; 
+	padding-top:5px;
+	overflow: hidden;
+}
+
+.selengkapnya{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #005500;
+}
+
+.hr4{
+	border: 1px dashed #ffffff;
+	width:210;
+}
+
+					
+.list_ul {
+		padding: 1px;
+		margin: 6px;
+	}
+
+					
+/* CSS UNTUK TEXT INPUT */	
+input{
+ 	border: solid #000000 1px;
+	height:25px;
+	padding:2px 0;
+	vertical-align:middle;
+	margin-left:1px;
+	margin-bottom:1px;
+	font-family: Verdana;
+	font-size: 11px;
+
+}
+
+input:hover {
+	background-color: #FFFFD2;
+}
+/* ********************** */
+
+/* CSS UNTUK TEXT AREA */
+textarea{
+	background-color: #FFFFFF;
+	border: solid #000000 1px;
+	color: black;
+	font-family: Verdana;
+	font-size: 11px;
+	margin-left:1px;
+	margin-bottom:1px;
+	width:640px;
+}
+
+/* CSS UNTUK TEXT AREA */
+textarea:hover{
+	background-color: #FFFFD2;
+
+}
+
+select{
+	background-color: #FFFFFF;
+	border: solid #000000 1px;
+	font-family: Verdana;
+	font-size: 11px;
+	color: black;
+}
+
+select:hover{
+	background-color: #FFFFD2;
+
+}
+
+
+/* CSS UNTUK TOMBOL INPUT  */
+input.button {
+	font-family: Verdana;
+	font-size: 11px;
+
+
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color:#666666;
+	border: solid #000000 1px;
+	padding: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+input.button:hover {
+	color:#FFFFFF;
+	background-color: #666666;
+}
+/* ********************** */
+
+
+/* CSS UNTUK TABEL FORMULIR */
+.tabelform{
+	font-family: Verdana;
+	font-size: 11px;
+	border: solid #666666 1px;
+	background-color: #FFFFFF;
+	padding:2px 2px 2px 2px;
+}
+
+.judulform{
+	font-family: Verdana;
+	font-size: 14px;
+	text-align:center;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #666666;
+}					
+
+.kontenform{
+
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	vertical-align:top;
+
+}
+
+tr{
+	font-family: Verdana;
+	font-size: 11px;
+
+}
+
+td{
+	font-family: Verdana;
+	font-size: 11px;
+
+}
+
+
+
+
+.slidemenu{
+	
+	
+	width: 400px;
+	overflow: hidden;
+
+	
+
+}
+
+.slidemenu ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+
+}
+
+.slidemenu ul li{
+	display: inline;
+}
+
+.slidemenu ul li a{
+	float: left;
+	color: black; /*text color*/
+	padding: 4px 6px;
+	text-decoration: none;
+	border: 1px solid #006600;
+	margin-right:2px;
+	background: #F0F0F0;
+}
+
+.slidemenu ul li a:visited {
+	color: #000;
+}
+
+.slidemenu ul li a:hover {
+	background: #006600;
+}
+
+
+.slidemenu ul li a.selected {
+	color: white !important;
+	padding-top: 6px; 
+	padding: 4px 6px;
+	background: #BA0808 center center repeat-x;
+	border: 1px solid #003366;
+
+}
+
+
+.halaman_footer{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align:center;
+}
+
+
+
+
+
+.link_action {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-size-adjust:10px;
+	padding: 2px 2px 2px 2px;
+}
+
+.link_action ul {
+	margin: 0px;
+	margin-bottom:10px;
+	padding: 0px;
+	list-style-type: none;
+}
+.link_action ul li {
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+
+
+.link_action ul li a {
+	display: block;
+	padding:8px 14px 8px 14px;
+	margin-right: 2px;
+	border: 1px solid #000000;
+	border-bottom-width: 1px;
+	color: #000000; /* Warna Huruf*/
+	text-decoration: none;
+	font-weight: bold;
+	background-image:url(../images/tab_on.png);
+	background-repeat:repeat-x;
+	background-position:top;
+	position:relative;
+}
+.link_action  ul li a:hover {
+	background: #666666;
+	color: #FFFFFF; /* Warna Huruf*/
+}
+
+
+
+
+
+/* CSS UNTUK LINK HAPUS DATA */
+.link_delete {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-size-adjust:10px;
+	padding: 2px 2px 2px 2px;
+}
+.link_delete ul {
+	margin: 0px;
+	margin-bottom:5px;
+	padding: 0px;
+	list-style-type: none;
+}
+.link_delete ul li {
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+
+.link_delete ul li a {
+	display: block;
+	padding:8px 14px 8px 14px;
+	margin-right: 5px;
+	border: 1px solid #000000;
+	border-bottom-width: 1px;
+	color: #FFFFFF; /* Warna Huruf*/
+	text-decoration: none;
+	font-weight: bold;
+	background: #666666;
+}
+.link_delete:hover {
+	background:#FF0000;
+}
+
+
+
+
+
+/* css Untuk Per halaman  */
+.pagination{
+padding: 6px;
+}
+
+.pagination ul{
+margin: 0;
+padding: 6px;
+text-align: left; /*Set to "right" to right align pagination interface*/
+font-size: 16px;
+}
+
+.pagination li{
+list-style-type: none;
+display: inline;
+padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+padding: 2px 7px;
+border: 1px solid #000;
+background-color: #000;
+text-decoration: none; 
+color: #FFFFFF;
+}
+
+.pagination a:hover, .pagination a:active{
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
+background-color: #666666;
+}
+
+.pagination a.currenthalaman{
+background-color: #666666;
+color: #FFF !important;
+border-color: #FFFFFF;
+font-weight: bold;
+cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+background-color: white;
+cursor: default;
+color: #FFFFFF;
+border-color: #000;
+font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+font-weight: bold;
+}
+
+.pesan_error{
+	font-family: Georgia;
+	font-weight: bold;
+	color: #FF0000;
+	font-size: 18px;
+}
+

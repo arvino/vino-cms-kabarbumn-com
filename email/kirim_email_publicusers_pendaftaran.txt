@@ -1,0 +1,25 @@
+Registration Member on web site {NAMADOMAIN}
+-------------------------------------------------
+
+
+Hello {FIRSTNAME},
+
+This is an email confirmation of your registration on the {NAMADOMAIN} at {TANGGALDAFTAR} we get the following information: 
+
+EMAIL : {EMAIL}
+PASSWORD : {PASSWORD}
+
+Please confirm your registration by open the following url: 
+
+{LINKKONFIRMASI} 
+
+Similarly, we submit this confirmation email, thank you for registering and welcome to our web site.
+
+
+Best Regards,
+
+Internet Marketing 
+{NAMAPERUSAHAAN}
+
+
+{EMAILFOOTER}

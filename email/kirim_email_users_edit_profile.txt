@@ -1,0 +1,92 @@
+{HEADERMAIL}
+
+
+
+EMAIL KONFIRMASI HAPUS ACCOUNT DI  {NAMAPERUSAHAAN}
+-----------------------------------------------------------------
+Dari : {NAMASITUS} ( {LOKASIURL} )
+Tanggal : {TANGGALHARIINI} {JAMSAATINI}
+
+
+Kepada Yth,  
+
+{USERSNAMA}
+
+Terima kasih atas aktifitas anda pada web sites kami.
+
+Anda telah melakukan update profile , berikut ini data selengkapnya :
+
+	
+	Nama Lengkap :  {USERS_NAMALENGKAP}
+
+ 	Nama Panggilan : {USERS_NAMAPANGGILAN}
+ 
+	Agama : {USERS_NAMAAGAMA}
+
+	Jenis Kelamin : {USERS_JENISKELAMIN}
+
+ 
+	Email Anda : {USERS_EMAIL}
+
+	Password : {USERS_PASSWORD}
+ 
+	Yahoo ID : {USERS_YAHOO}
+ 
+	
+	
+	Propinsi : {USERS_PROPINSI}
+
+	Kota/Kabupaten	: {USERS_KOTAMADYA}
+
+	Kecamatan : {USERS_KECAMATAN}
+
+	Kelurahan : {USERS_KELURAHAN}
+
+	Kode Pos : {USERS_KODEPOS}
+
+	Alamat Lengkap	: {USERS_ALAMAT}
+
+	Tempat & Tanggal Lahir: {USERS_TEMPATTANGGALLAHIR}
+	
+	No. Telpon : {USERS_NOTELPON}
+	
+	No. Ponsel GSM / CDMA	: {USERS_NOPONSEL}
+
+
+
+	DATA BANK [ 1 ]
+	-------------------
+ 
+	NAMA BANK : {USERS_BANK1_NAMA}
+	
+	ACCOUNT NAME : {USERS_BANK1_ATASNAMA}
+	
+	NO. REKENING : {USERS_BANK1_NOREKENING}
+	
+	CABANG BANK : {USERS_BANK1_CABANG}
+ 
+
+	
+	DATA BANK [ 2 ]
+	-------------------
+ 
+	NAMA BANK : {USERS_BANK2_NAMA}
+
+	ACCOUNT NAME : {USERS_BANK2_ATASNAMA}
+
+	NO. REKENING : {USERS_BANK2_NOREKENING}
+
+	CABANG BANK : {USERS_BANK2_CABANG}
+
+
+ 
+ 	Foto                  : {KE_FOTO}
+ 	File Identitas        : {KE_FILE_IDENTITAS}
+
+
+
+
+
+
+{EMAILFOOTER}
+

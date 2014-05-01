@@ -1,0 +1,17 @@
+EMAIL KONTAK ADMIN / TICKET SUPPORT DARI {NAMAPERUSAHAAN}
+-------------------------------------------------
+
+{TANGGALHARIINI} {JAMSAATINI}
+
+Dari : {NAMA}
+
+Email : {EMAIL}
+
+Pesan :
+--------------------
+{PESAN}
+
+
+* Mohon jika reply isi pesan ini / pesan sebelumnya di sertakan.
+
+{EMAILFOOTER}

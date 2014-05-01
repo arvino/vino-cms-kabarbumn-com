@@ -1,0 +1,58 @@
+/*
+	jQuery galeriheadlineslider v2.0 - http://www.ndoherty.biz/galeriheadlineslider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+
+	
+	.panelgaleriheadline div.title { margin-bottom: 2px;
+	font-size:2px;
+	color:#FFFFFF;
+	
+	 }
+	 
+
+/* Most common stuff you'll need to change */
+
+	.galeriheadlineslider-wrapper { padding: 2px 0 }
+	 
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.galeriheadlineslider-no-js .galeriheadlineslider { height: 2px; overflow: auto !important; padding-right: 2px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.galeriheadlineslider, .galeriheadlineslider .panelgaleriheadline { width: 600px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.galeriheadlineslider-wrapper.arrows .galeriheadlineslider, .galeriheadlineslider-wrapper.arrows .galeriheadlineslider .panelgaleriheadline { width: 600px }
+	.galeriheadlineslider-wrapper.arrows .galeriheadlineslider { margin: 0 10px }
+	
+	/* Arrow styling */
+	.galeriheadlinenav-left a, .galeriheadlinenav-right a { background: #000; color: #fff; padding: 2px; width: 50px }
+	
+	/* Tab nav */
+	.galeriheadlinenav ul li a.current { background: #A80000 }
+	
+	/* panelgaleriheadline padding */
+	.galeriheadlineslider .panelgaleriheadline-wrapper { padding: 2px }
+	
+	/* Preloader */
+	.galeriheadlineslider p.loading { padding: 2px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.galeriheadlinenav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.galeriheadlinenav ul li { display: inline }
+	.galeriheadlinenav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.galeriheadlineslider-wrapper { clear: both; overflow: auto }
+	.galeriheadlineslider { float: left; overflow: hidden; position: relative }
+	.galeriheadlineslider .panelgaleriheadline { display: block; float: left }
+	.galeriheadlineslider .panelgaleriheadline-container { position: relative }
+	.galeriheadlinenav-left, .galeriheadlinenav-right { float: left }
+	.galeriheadlinenav-left a, .galeriheadlinenav-right a { display: block; text-align: center; text-decoration: none }
+	

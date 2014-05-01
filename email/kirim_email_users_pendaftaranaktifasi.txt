@@ -1,0 +1,37 @@
+{HEADERMAIL}
+
+
+
+EMAIL AKTIFASI ANGGOTA DI  {NAMAPERUSAHAAN}
+-----------------------------------------------------------------
+Dari : {NAMASITUS} ( {LOKASIURL} )
+Tanggal : {TANGGALHARIINI} {JAMSAATINI}
+
+
+Kepada Yth,  
+
+{USERSNAMA}
+
+
+TERIMA KASIH ATAS AKTIFASI PENDAFTARAN ANDA
+
+Sekarang status anda sudah aktif menjadi anggota.
+
+Agar kami dapat lebih mengenal anda, sangat di harapkan jika anda juga meng Update password di halaman edit profile, setelah login terlebih dahulu.
+
+Update Data profile sangat di perlukan jika anda ingin melakukan transaksi pada web sites kami.
+
+
+
+TERIMA KASIH.
+{NAMAPERUSAHAAN}
+
+
+
+{EMAILFOOTER}
+
+
+
+
+
+

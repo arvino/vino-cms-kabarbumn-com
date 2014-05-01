@@ -1,0 +1,46 @@
+EMAIL KIRIM KOMENTAR DI LOGINDO & STEADFAST INTERNAL INFORMATION SYSTEM 
+-------------------------------------------------
+
+Kepada Yth, 
+
+{USERSNAMA}
+
+
+Anda telah memberikan komentar pada :
+------------------------------------------------------------
+
+{ISISECTION}
+
+
+
+Komentar anda :
+-------------------------------------
+
+{ISIKOMENTAR}
+
+
+
+Klik URL Link berikut ini untuk melihat komentar.
+
+
+{LINKKONFIRMASI}
+
+
+Terima kasih atas partisipasi anda.
+
+
+
+
+Notes :
+-----------------------
+* Harap jangan di reply , Email ini di kirim secara otomatis oleh system.
+
+
+{EMAILFOOTER}
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+{HEADERMAIL}
+
+=========================================================================
+
+EMAIL HUBUNGI KAMI
+---------------------------
+
+
+Tanggal : {TANGGALPESAN}
+
+Nama Pengirim : {NAMA}
+Email Pengirim : {EMAIL}
+
+Ditujukan : {EMAILDEPARTEMEN}{DEPARTEMENTUJUAN}
+
+Subject Pesan : {JUDULPESAN}
+
+Isi Pesan :
+--------------------
+{ISIPESAN}
+
+
+
+Terima kasih Atas Pesan, kritik dan saran yang anda berikan.
+
+* Mohon jika reply isi pesan ini / pesan sebelumnya di sertakan.
+
+
+
+{EMAILFOOTER}
+

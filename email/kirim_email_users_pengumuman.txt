@@ -1,0 +1,28 @@
+{HEADERMAIL}
+
+
+EMAIL PENGUMUMAN    
+-----------------------------
+
+
+Tanggal       : {TANGGALPESAN}
+
+Nama anda     : {NAMA}
+Email         : {EMAIL}
+
+Subject Pesan : {JUDULPESAN}
+
+Isi Pesan :
+--------------------
+{ISIPESAN}
+
+
+
+* Mohon jika reply isi pesan ini / pesan sebelumnya di sertakan.
+
+
+
+
+
+{EMAILFOOTER}
+

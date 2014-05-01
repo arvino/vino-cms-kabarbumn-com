@@ -1,0 +1,58 @@
+/*
+	jQuery headlineSlider v2.0 - http://www.ndoherty.biz/headlineslider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+
+	
+	.panelheadline div.title { margin-bottom: 2px;
+	font-size:2px;
+	color:#FFFFFF;
+	
+	 }
+	 
+
+/* Most common stuff you'll need to change */
+
+	.headlineslider-wrapper { padding: 2px 0 }
+	 
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.headlineslider-no-js .headlineslider { height: 2px; overflow: auto !important; padding-right: 2px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.headlineslider, .headlineslider .panelheadline { width: 600px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.headlineslider-wrapper.arrows .headlineslider, .headlineslider-wrapper.arrows .headlineslider .panelheadline { width: 600px }
+	.headlineslider-wrapper.arrows .headlineslider { margin: 0 10px }
+	
+	/* Arrow styling */
+	.headlinenav-left a, .headlinenav-right a { background: #000; color: #fff; padding: 2px; width: 50px }
+	
+	/* Tab nav */
+	.headlinenav ul li a.current { background: #A80000 }
+	
+	/* panelheadline padding */
+	.headlineslider .panelheadline-wrapper { padding: 2px }
+	
+	/* Preloader */
+	.headlineslider p.loading { padding: 2px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.headlinenav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.headlinenav ul li { display: inline }
+	.headlinenav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.headlineslider-wrapper { clear: both; overflow: auto }
+	.headlineslider { float: left; overflow: hidden; position: relative }
+	.headlineslider .panelheadline { display: block; float: left }
+	.headlineslider .panelheadline-container { position: relative }
+	.headlinenav-left, .headlinenav-right { float: left }
+	.headlinenav-left a, .headlinenav-right a { display: block; text-align: center; text-decoration: none }
+	

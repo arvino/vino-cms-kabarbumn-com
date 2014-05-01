@@ -1,0 +1,18 @@
+Registration Users Administrator on web site {NAMADOMAIN}
+-------------------------------------------------
+{TANGGALHARIINI}
+
+Dear {USERNAME},
+
+This is an email confirmation of your registration on the web site at {TANGGALDAFTAR} , please confirm your
+registration.
+
+Please confirm your registration by contacting the team of web developers by opening the admin contact or create a support ticket.
+
+
+Best regards,
+System Administrator
+{NAMAPERUSAHAAN}
+
+
+{EMAILFOOTER}

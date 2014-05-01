@@ -1,0 +1,30 @@
+*This is Email From {CONFIG_DOMAIN}
+
+
+{TANGGALHARIINI} | {JAMSAATINI}
+
+
+Purpose letter :{TUJUAN}
+
+
+Sender 
+-------
+Name :{NAMA}
+Email : {EMAIL}
+
+
+Subject :
+-------- 
+{SUBJECT}
+
+
+
+Message:
+--------
+{MESSAGE}
+
+
+
+
+{CONFIG_COMPANYNAME}
+{CONFIG_SYSTEMURL}

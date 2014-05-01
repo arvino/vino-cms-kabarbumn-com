@@ -1,0 +1,29 @@
+{HEADEREMAIL}
+=========================================================================
+
+EMAIL AKITFASI {SECTIONKONTEN}
+------------------------------------
+
+ 
+{TANGGALKIRIM}
+
+
+
+ID EMAIL : {IDEMAIL}
+Pengirim : {NAMASITUS} 
+
+{URLSITUS}
+
+
+
+--------------------------------------------------------------------------
+Klik link berikut ini untuk mengaktifkan :
+
+
+{URLAKTIFASI}
+
+
+
+=========================================================================
+{FOOTERMAIL}
+

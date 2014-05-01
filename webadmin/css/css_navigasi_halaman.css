@@ -1,0 +1,51 @@
+/* Css Untuk Per halaman  */
+.pagination{
+padding: 6px;
+}
+
+.pagination ul{
+margin: 0;
+padding: 6px;
+text-align: left; /*Set to "right" to right align pagination interface*/
+font-size: 16px;
+}
+
+.pagination li{
+list-style-type: none;
+display: inline;
+padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+padding: 2px 7px;
+border: 1px solid #003366;
+text-decoration: none; 
+color: #2e6ab1;
+}
+
+.pagination a:hover, .pagination a:active{
+border: 1px solid #003366;
+color: #FFFFFF;
+background-color: #FFCC00;
+}
+
+.pagination a.currenthalaman{
+background-color: #FFCC00;
+color: #FFFFFF !important;
+border-color: #003366;
+font-weight: bold;
+cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+background-color: #FFCC00;
+cursor: default;
+color: #FFFFFF;
+border-color: #003366;
+font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+font-weight: bold;
+}
+

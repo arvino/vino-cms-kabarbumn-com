@@ -1,0 +1,243 @@
+/* CSS Document */
+
+ 
+<!--
+.item_textjudul {	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.item_texttanggalberita {	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #999999;
+}
+.liststyle {	margin-left:5px;
+	padding-left:12px;
+	padding-top:1px;
+	list-style:square;
+}
+-->
+ 
+.wrap_itempreview{
+	width: 220px;
+	overflow: hidden;
+	margin-left: 1px;
+	padding: 3px 3px 3px 3px;
+	font-family: Century;
+}
+
+
+.item_textjudul{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+
+
+.item_textjudul:hover{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style:inherit;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.item_texttanggalberita{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #999999;
+}
+
+
+.item_textpreview{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.item_moredetail {
+	font-size: 11px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #000000;
+	text-decoration:none
+}
+
+.item_moredetail:hover {
+	font-size: 11px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #666666;
+	text-decoration:none
+}
+
+.liststyle{
+	margin-left:5px;
+	padding-left:12px;
+	padding-top:1px;
+	list-style:square;
+}
+
+
+.Font_Footer {
+	font-family: Georgia;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 10px;
+	margin: 1px;
+	padding: 1px;
+}
+.Font_Menu_Footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10px;
+}
+-->
+ 
+/* CSS UNTUK TEXT INPUT */	
+.input{
+ 	border: solid #000000 1px;
+	display: block;
+	padding:6px 8px 6px 8px;
+	background-image:url(../images/bg_input.png);
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+.input:hover {
+	background: #666666;
+	color: #FFFFFF; /* Warna Huruf*/
+
+}
+
+.submit{
+	display: block;
+	padding:4px 10px 4px 10px;
+	margin-right: 2px;
+	border: 1px solid #000000;
+	border-bottom-width: 1px;
+	color: #FFFFFF; /* Warna Huruf*/
+	text-decoration: none;
+	background-image:url('../images/tab_on.png');
+	background-repeat:repeat-x;
+	background-position:top;	
+
+}
+
+.submit:hover {
+	background: #666666;
+	color: #FFFFFF; /* Warna Huruf*/
+}
+ 
+
+
+ 
+<!--
+.JudulKanal_box11 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px;
+	margin: 0px;
+	text-transform: uppercase;
+	background-color: #000000;
+	background-position: center;
+	height: 10px;
+	width: 10px;
+}
+
+
+.Font_Item_Judul {
+	color: #666666;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+}
+.tanggal_statistik_header {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	background-position: center;
+	right: 5px;
+	left: 1px;
+	top: 1px;
+	bottom: 1px;
+	padding: 3px;
+	margin: 1px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	text-align: center;
+}
+.text_search {
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: Verdana;
+}
+
+
+
+
+
+.style2 {
+	font-family: Georgia;
+	font-weight: bold;
+	color: #000000;
+	font-size: 9px;
+}
+-->
+ 
+
+ 
+<!--
+.JudulKanal_box1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333333;
+	margin-left:5;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+-->
+ 
+
+ 
+.line_box{
+margin-top:2; 
+margin-bottom:2; 
+border:0.01em solid #CCCCCC;
+}
+
+.ul_menu_atas {list-style:none;margin:0;padding:0;}
+.li_menu_atas {float:left;width:100px;margin:0;padding:0;text-align:center;}
+.li_menu_atas a {background:url(images/bg2.jpg) repeat 0 0;}
+.li_menu_atas a:hover, li a:focus, li a:active {background-position:-150px 0;}
+
+#b a {background:url(bg2x.png) repeat 0 0;}
+
+
+.liststyle1 {margin-left:15px;
+	padding-left:1px;
+	list-style:square;
+	font-family: Century;
+}

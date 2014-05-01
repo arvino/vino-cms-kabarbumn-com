@@ -1,0 +1,143 @@
+/* Pilihan Warna Stead Fast Marine 
+Hitam Abu - abu : #607475
+Hitam Abu - abu muda : #768E8F
+Abu - abu 1 : #666666
+Kuning : #FEDD59
+
+
+#FFCC33
+*/
+
+/* Jquery CSS Menu Horisontal */
+
+.menunavigasi_horisontal {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-size-adjust:10px;
+	padding: 2px 2px 2px 2px;
+}
+.menunavigasi_horisontal ul {
+	margin: 0px;
+	margin-bottom:10px;
+	padding: 0px;
+	list-style-type: none;
+}
+.menunavigasi_horisontal ul li {
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+
+
+.menunavigasi_horisontal ul li a {
+	display: block;
+	padding:6px 10px 6px 10px;
+	margin-right: 2px;
+	border: 1px solid #000000;
+	border-bottom-width: 1px;
+	color: #FFFFFF; /* Warna Huruf*/
+	text-decoration: none;
+	font-weight: bold;
+	background-image:url(../images/tab_on.png);
+	background-repeat:repeat-x;
+	background-position:top;	
+}
+
+
+.menunavigasi_horisontal ul li a:hover {
+	background: #666666;
+	color: #FFFFFF;
+}
+
+
+.menunavigasi_horisontal ul li a:active {
+	background: #666666;
+	color: #FFFFFF;
+}
+
+
+.menunavigasi_horisontal ul li a:currenthalaman{
+	background: #666666;
+	color: #FFFFFF;
+}
+
+.menunavigasi_horisontal ul li a:focus{
+	background: #666666;
+	color: #FFFFFF;
+}
+
+
+/*
+.menunavigasi_horisontal ul li a:visited {
+color: #000;
+}
+*/
+.menunavigasi_horisontal ul li a.selected {
+color: white !important;
+padding-top: 2px; 
+padding: 2px 2px;
+/*background: #BA0808 center center repeat-x;*/
+/*border: 1px solid #003366;*/
+background: #666666;
+
+}
+
+
+.menunavigasi_horisontal ul li ul {
+	position: absolute;
+	left: 0;
+	display: block;
+	visibility: hidden;
+	border-bottom: 1px solid #000000; 
+	border-top: 0px; 
+}
+.menunavigasi_horisontal ul li ul li {
+	display: list-item;
+	float: none;
+}
+.menunavigasi_horisontal ul li ul li ul {
+	top: 0px;
+}
+.menunavigasi_horisontal ul li ul li a {
+	width: 160px;
+	background: white;
+	color: black;
+	padding: 4px 5px;
+	margin: 0px;
+	border-top-width: 0px;
+	border-top: 1px solid #000000;
+}
+
+.menunavigasi_horisontal ul li ul li a:hover {
+	background: #666666;
+	color: #FFFFFF;
+}
+
+.menunavigasi_horisontal ul li ul li a:selected {
+	background: #666666;
+	color: #FFFFFF;
+}
+
+
+.downarrowclass {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+}
+.rightarrowclass {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+}
+*:first-child+html .menunavigasi_horisontal {
+	height: 1%;
+}
+* html .menunavigasi_horisontal{
+	height: 1%;
+}
+* html .menunavigasi_horisontal ul li ul li a {
+	display: inline-block;
+}
+
+/* Selesai Jquery Menu Horisontal */

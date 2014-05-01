@@ -1,0 +1,18 @@
+SUBSCRIBE NEWSLETTER FROM {CONFIG_DOMAIN}
+
+{SUBJECT}
+
+{TANGGALHARIINI} | {JAMSAATINI}
+
+Hello {NAMA},
+
+this is a notification message for your subscribe newsletter with email address {EMAIL}, 
+Here is the information you have provided
+
+{MESSAGE}
+
+
+
+
+{CONFIG_COMPANYNAME}
+{CONFIG_SYSTEMURL}

@@ -1,0 +1,61 @@
+/*
+	jQuery galeri1Slider v2.0 - http://www.ndoherty.biz/galeri1slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+
+	
+	.panelgaleri1 div.title { margin-bottom: 2px;
+	font-size:2px;
+	color:#FFFFFF;
+	
+	 }
+	 
+
+/* Most common stuff you'll need to change */
+
+	.galeri1slider-wrapper { padding: 2px 0}
+	 
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.galeri1slider-no-js .galeri1slider { height: 2px; overflow: auto !important; padding-right: 2px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.galeri1slider, .galeri1slider .panelgaleri1 { width: 225px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.galeri1slider-wrapper.arrows .galeri1slider, .galeri1slider-wrapper.arrows .galeri1slider .panelgaleri1 { 
+	width: 225px;
+	padding:2px;
+	 }
+	.galeri1slider-wrapper.arrows .galeri1slider { margin: 0 20px }
+	
+	/* Arrow styling */
+	.galeri1nav-left a, .galeri1nav-right a { background: #000; color: #fff; padding: 2px; width: 20px }
+	
+	/* Tab nav */
+	.galeri1nav ul li a.current { background: #A80000 }
+	
+	/* panelgaleri1 padding */
+	.galeri1slider .panelgaleri1-wrapper { padding: 2px }
+	
+	/* Preloader */
+	.galeri1slider p.loading { padding: 2px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.galeri1nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.galeri1nav ul li { display: inline }
+	.galeri1nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.galeri1slider-wrapper { clear: both; overflow: auto }
+	.galeri1slider { float: left; overflow: hidden; position: relative }
+	.galeri1slider .panelgaleri1 { display: block; float: left }
+	.galeri1slider .panelgaleri1-container { position: relative }
+	.galeri1nav-left, .galeri1nav-right { float: left }
+	.galeri1nav-left a, .galeri1nav-right a { display: block; text-align: center; text-decoration: none }
+	

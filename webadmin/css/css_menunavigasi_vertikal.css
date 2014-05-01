@@ -1,0 +1,108 @@
+/* Pilihan Warna Stead Fast Marine 
+Hitam Abu - abu : #607475
+Hitam Abu - abu muda : #768E8F
+Abu - abu 1 : #666666
+Kuning : #FEDD59
+*/
+/* Warna Box Menu */
+.menunavigasi_vertikal {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-size-adjust:10px;
+	padding: 2px 2px 2px 2px;
+}
+.menunavigasi_vertikal ul {
+	margin: 0px;
+	margin-bottom:10px;
+	padding: 0px;
+	list-style-type: none;
+}
+.menunavigasi_vertikal ul li {
+	width:200px;
+	position: relative;
+	display: inline;
+	float: left;
+}
+.menunavigasi_vertikal ul li a {
+	
+	display: block;
+	padding:8px 14px 8px 14px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	border: 1px solid #000000;
+	border-bottom-width: 1px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+
+	background-image:url(../images/tab_on.png);
+	background-repeat:repeat-x;
+	background-position:top;	
+}
+.menunavigasi_vertikal ul li a:hover {
+	background: #666666;
+	color: #FFFFFF; 
+}
+/*
+.menunavigasi_vertikal ul li a:visited {
+color: #000;
+}
+*/
+.menunavigasi_vertikal ul li a.selected {
+color: white !important;
+padding-top: 2px; 
+padding: 2px 2px;
+/*background: #BA0808 center center repeat-x;*/
+/*border: 1px solid #003366;*/
+
+}
+
+
+.menunavigasi_vertikal ul li ul {
+	position: absolute;
+	left: 0;
+	display: block;
+	visibility: hidden;
+	border-bottom: 1px solid #B41D31; 
+	border-top: 0px; 
+}
+.menunavigasi_vertikal ul li ul li {
+	display: list-item;
+	float: none;
+}
+.menunavigasi_vertikal ul li ul li ul {
+	top: 0px;
+}
+.menunavigasi_vertikal ul li ul li a {
+	width: 180px;
+	background: white;
+	color: black;
+	padding: 4px 5px;
+	margin: 0px;
+	border-top-width: 0px;
+	border-top: 1px solid #B41D31;
+}
+.menunavigasi_vertikal ul li ul li a:hover {
+	background: #003300;
+	color: #FFFFFF;
+}
+.downarrowclass {
+	position: absolute;
+	top: 10px;
+	right: 2px;
+}
+.rightarrowclass {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+*:first-child+html .menunavigasi_vertikal {
+	height: 1%;
+}
+* html .menunavigasi_vertikal{
+	height: 1%;
+}
+* html .menunavigasi_vertikal ul li ul li a {
+	display: inline-block;
+}
+
