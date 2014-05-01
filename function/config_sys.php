@@ -23,7 +23,7 @@ $extention = ".html";
 $link_menu = "/";
 $dir_admin = "webadmin/";
 
-$db_name ='c12kabarbumn';
+$db_name ='db_kabarbumn';
 $db_user ='root';
 $db_pass ='1q2w3e4r5t';
 
